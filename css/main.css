@@ -184,6 +184,7 @@ a[target="_blank"]:hover:after,a[target="_blank"]:active:after,a[target="_blank"
     background-attachment: fixed;
     color: #fff;
     height: 100vh;
+    overflow-x: hidden;
     position: relative;
     text-align: center;
 }
@@ -209,6 +210,11 @@ a[target="_blank"]:hover:after,a[target="_blank"]:active:after,a[target="_blank"
     /**/
     -webkit-border-radius:300px;
     border-radius:300px;
+}
+.more {
+    background: #222;
+    color: #fff;
+    padding: 100px 0;
 }
 ul.social {
     list-style: none;

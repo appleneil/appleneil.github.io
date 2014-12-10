@@ -214,7 +214,7 @@ a[target="_blank"]:hover:after,a[target="_blank"]:active:after,a[target="_blank"
 .more {
     background: #222;
     color: #fff;
-    padding: 100px 0;
+    padding: 25px 0 100px;
 }
 ul.social {
     list-style: none;
@@ -269,9 +269,6 @@ ul.social {
     }
     .table-cell + .table-cell {
         padding: 0;
-    }
-    .align-centre {
-        text-align: left;
     }
     .photo {
         height: 250px;

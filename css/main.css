@@ -244,6 +244,9 @@ ul.social {
 .social .linkedin a {
     background-image: url('../img/linkedin.png');
 }
+.social .medium a {
+    background-image: url('../img/medium.png');
+}
 .social .github a {
     background-image: url('../img/github.png');
 }

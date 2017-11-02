@@ -1,0 +1,11 @@
+$source-font-path: $font-path !default;
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('#{$source-font-path}SourceSansPro-Bold.eot');
+    src: url('#{$source-font-path}SourceSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('#{$source-font-path}SourceSansPro-Bold.woff') format('woff'),
+        url('#{$source-font-path}SourceSansPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}

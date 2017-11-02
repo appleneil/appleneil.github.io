@@ -1,0 +1,34 @@
+$font-path: "../fonts";
+
+// KEY FILES
+@import "normalize";
+@import "sourcesanspro";
+
+// GENERAL STYLES
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+    height: 100%;
+    overflow-x: hidden;
+}
+body {
+    background: #000;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    height: 100%;
+    line-height: 1.3;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    /**/
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+// COMPONENTS
+@import "home";
+@import "footer";

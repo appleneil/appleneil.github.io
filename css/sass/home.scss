@@ -1,0 +1,44 @@
+.hello-there {
+	bottom: 100px;
+	left: 100px;
+	position: absolute;
+	@media only screen and (max-width:1099px) {
+		bottom: 50px;
+		left: 50px;
+	}
+	@media only screen and (max-width:799px) {
+		bottom: 25px;
+		left: 25px;
+	}
+	@media only screen and (max-width:599px) {
+		bottom: auto;
+		left: 25px;
+		top: 25px;
+	}
+	h1 {
+		color: #fff;
+		font-size: (80 / 16) + 0rem;
+		font-weight: bold;
+		line-height: 1;
+		margin: 0;
+		@media only screen and (max-width:1099px) {
+			font-size: (60 / 16) + 0rem;
+		}
+		@media only screen and (max-width:799px) {
+			font-size: (40 / 16) + 0rem;
+		}
+		@media only screen and (max-width:399px) {
+			font-size: (32 / 16) + 0rem;
+		}
+		a {
+			box-shadow: none;
+			color: #fff;
+			text-decoration: none;
+			transition: all 250ms ease-out;
+			&:hover,
+			&:focus {
+				box-shadow: 0 5px 0 0 #fff;
+			}
+		}
+	}
+}

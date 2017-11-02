@@ -8,9 +8,12 @@
 	@media only screen and (max-width:599px) {
 		right: 50%;
 		transform: translateX(50%) translateY(40px);	
+		&.is-visible {
+			transform: translateX(50%) translateY(0);
+		}
 	}
 	&.is-visible {
-		transform: translateX(50%) translateY(0);
+		transform: translateY(0);
 	}
 	button {
 		background: none;

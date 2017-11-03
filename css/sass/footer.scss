@@ -5,15 +5,15 @@
 	right: 15px;
 	transform: translateY(40px);
 	transition: all 250ms ease-out;
+	&.is-visible {
+		transform: translateY(0);
+	}
 	@media only screen and (max-width:599px) {
 		right: 50%;
 		transform: translateX(50%) translateY(40px);	
 		&.is-visible {
 			transform: translateX(50%) translateY(0);
 		}
-	}
-	&.is-visible {
-		transform: translateY(0);
 	}
 	button {
 		background: none;

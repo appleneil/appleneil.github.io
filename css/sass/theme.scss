@@ -1,8 +1,9 @@
-$font-path: "../fonts";
+$font-path: "../fonts/";
 
 // KEY FILES
 @import "normalize";
 @import "sourcesanspro";
+@import "animations";
 
 // GENERAL STYLES
 * {
@@ -30,5 +31,6 @@ body {
 }
 
 // COMPONENTS
+@import "header";
 @import "home";
 @import "footer";

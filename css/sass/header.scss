@@ -1,0 +1,43 @@
+.site-header {
+	height: 200vh;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 100;
+	.container {
+		background: #fff;
+		display: flex;
+		height: 100vh;
+		position: relative;
+		.site-title {
+			animation: pulse 1.5s linear infinite;
+			background: url('../img/logo.svg') no-repeat 0 0 / contain;
+			direction: ltr;
+			height:280px;
+			left: 50%;
+			margin: -140px 0 0 -140px;
+			position: absolute;
+			text-indent: -999em;
+			top: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			width:280px;
+			@media only screen and (max-width:599px) {
+				height: 100px;
+				margin: -50px 0 0 -50px;
+				width: 100px;
+			}
+		}
+	}
+	.shape-wrap {
+		margin: -5px 0 0;
+		position: relative;
+		z-index: 10;
+		.shape {
+			display: block;
+			fill: #fff;
+			height: 100vh;
+			width: 100%;
+		}
+	}
+}
